@@ -1,0 +1,88 @@
+<!doctype html>
+<!--Project Title: Bin/Hex Website Project
+       Author: Kaiya Moore
+       Date: 9/18/23
+       Summary:  Adding to personal website to describe 
+       binary & hexadecimal converting process
+-->
+
+<head>
+    <link href = "../../styles.css"  type = "text/css"  rel = "stylesheet">
+    <title>Binary</title>
+</head>
+
+<body>
+    
+    <!--dropdown menu-->
+    <ul>
+            
+           <li><a class = "active" href = "../../index.html">Home</a></li>
+            <li> 
+                <div class = "dropdown">
+                    <button class = "dropbtn">Number Systems
+                        <i class = "fa fa-caret-down"></i>
+                    </button>
+                    <div class = "dropdown-content">
+                        <a href = "binary.html">Binary</a>
+                        <a href = "hex.html">Hexadecimal</a>
+                        <a href = "binToHex.html">Hex to Binary</a>
+                    </div>
+                </div>
+            </li>
+           <li><a href="../data.html">Data</a></li>
+           <li><a href="../networks.html">Networks</a></li>
+           <li><a href="../projects.html">Projects</a></li>   
+           <li><a href="../contact.html">Contact</a></li>       
+        </ul>
+    <!--page header-->
+    <h1>Binary Page</h1>
+    <h3>What is Binary?</h3>
+    <p>
+        Binary is a number system with a base of two, meaning that 
+        the ones place is 2^0, the next is 2^1, and so on and so fourth.
+        The only digits that can be written in binary are 1 and 0.  1 means true, or on.  
+        0 means false, or off.  A singular binary digit is called a bit, 4 bits is called
+        a nibble (usually used when dealing with hexadecimal), and 8 bits is called a byte.
+        This continues on to gigabytes and even terabytes, but these are some of the more common
+        names for groups of binary numbers.  Computers understand binary, so it is the foundation
+        or all computer programming and languages.  Binary is used by computers to store information.
+        Because of this, binary is very important.  
+    </p>
+    
+    <h3>How do you convert Binary to Decimal?</h3>
+    <!--image-->
+    <img src = "https://codehs.com/uploads/da52882e7905a77b7e0bfe976bc44ad8" width = "150 px">
+    <p>
+        Converting binary numbers to decimal numbers is super simple!  Because 1 is on,
+        the value associated with the one in a particular place value is added to the total.
+        Nothing is added for the 0 values, because they are off.  The simplest way to perform
+        this process, is match the binary digits with its place value.  Like the decimal system,
+        the furthest spot to the right begins to the power of 1, and the power
+        increases by 1 to the right, continuing for infinity.  Since 2^1 is 1, if the
+        number in that slot is equal to 1, it is added.  If not, you add 0, or simply ignore it.
+        In this example, the one's slot is equal to 0, so nothing is added.  In the next spot, 2^1 
+        equals true (or 1), so it is added to the total.  You repeat this process
+        until you get to the 1 furthest to the left.  There you go!  Easy as pi!
+        
+    </p>
+   
+   <h3>How do you convert Decimal to Binary?</h3>
+    <img src = "https://codehs.com/uploads/d3143b51f781134d656e2fd85fdc8147" width = "150 px">
+    <p>
+        Converting from decimal to binary is a little <i>bit</i> more difficult,
+        but I know you'll get the hang of it in no time!  One of the easiest ways to 
+        do this, is dividing by 2.  Its nice to do this on paper, so you can visualise what you're
+        doing a little bette!  While its not incorrect to draw the division line above the number,
+        its easier to track by drawing the line below the number!  Simply divide your number by 2.
+        If the number is even, the remainder will be 0.  If not, it will be 1.  When the number is odd,
+        subtract one to make it even, and easier to divide!  Take the one you just subtracted, and 
+        make the remainder 1.  Continue all the way until you reach 0.  Boom!  Isn't that easy?  
+        If you did your division in a column, your remainders will have formed their own column. 
+        These numbers are read from bottom to top; so you take the bottom number and make it the furthest
+        left binary digit, the second to the bottom the second to the left, and so on.  There you go,
+        you just converted a binary number into a decimal!  Congrats!
+    </p>
+    <footer>
+        <p>Kaiya Moore 2023©</p>
+    </footer>
+</body>

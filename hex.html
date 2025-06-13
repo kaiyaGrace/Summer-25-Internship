@@ -1,0 +1,113 @@
+<!doctype html>
+<!--Project Title: Bin/Hex Website Project
+       Author: Kaiya Moore
+       Date: 9/18/23
+       Summary:  Adding to personal website to describe 
+       binary & hexadecimal converting process
+-->
+<head>
+    <link href = "../../styles.css"  type = "text/css"  rel = "stylesheet">
+    <title>Hexadecimal</title>
+</head>
+
+<body>
+    
+    <!--dropdown menu-->
+    <ul>
+            
+           <li><a class = "active" href = "../../index.html">Home</a></li>
+            <li> 
+                <div class = "dropdown">
+                    <button class = "dropbtn">Number Systems
+                        <i class = "fa fa-caret-down"></i>
+                    </button>
+                    <div class = "dropdown-content">
+                        <a href = "binary.html">Binary</a>
+                        <a href = "hex.html">Hexadecimal</a>
+                        <a href = "binToHex.html">Hex to Binary</a>
+                    </div>
+                </div>
+            </li>
+           <li><a href="../data.html">Data</a></li>
+           <li><a href="../networks.html">Networks</a></li>
+           <li><a href="../projects.html">Projects</a></li>   
+           <li><a href="../contact.html">Contact</a></li>       
+        </ul>
+    <!--page header -->
+    <h1>Hexadecimal Page</h1>
+    <h3>What is Hexadecimal?</h3>
+    <table border = "0 px">
+            <tr>
+                <th>
+                    <img src = "https://codehs.com/uploads/5da54e55cc055ec2bd5537bc759414eb" width = "150 px">                </th>
+                <!--paragraph/body text-->
+                <th>
+                    <p>
+                        Well, I'm so glad you asked!  Hexadecimal is acctually pretty neat!
+                        Hexadecimal is a base 16 number system.  So, the ones slot is 16^1, the next
+                        is 16^2, after that is 16^3, and it so fourth.  Unlike binary, hexadecimal
+                        (or <i>hex</i>) can represent both letters and numbers.  0 through 9 are represented
+                        by their own values, and then the capital letter "A" is 10.  "B" is 11, "C" is
+                        12, and it continues for the rest of the alphabet.  Lowercase letters have different hex
+                        values.  Hexadecimal is used to indicate colours.   Colour IDs are made up of 6
+                        digits.  The first two characters indicate how red the colour is, the second how green, the third how blue.
+                        Every digital picture is made up of these values, so the more details they have, the more hex values they use. 
+                        Hexadecimal is important, because they represent colours in most digital things.
+                    </p>
+                </th>
+            </tr>
+        </table>
+    
+    <!--this pretty much lego blocks these elements, making them one
+    I thought I would want to play around with it, I didn't get to it, but
+    maybe later!-->
+    <div>
+        <!--little header -->
+        <h3>How do you convert Hexadecimal into Decimal?</h3>
+        <!--image -->
+        <table border = "0 px">
+            <tr>
+                <th>
+                    <img src = "https://codehs.com/uploads/231f0547c14e7fbde77a5bbca49f5795" width = "150 px">
+                </th>
+                <!--paragraph/body text-->
+                <th>
+                    <p>
+                        Good question!  Converting hexadecimal into decimal is acctually quite simple.
+                        First, write down each character above its appropriate base 16 slot (16^0, 16^1, 16^2...).
+                        Then, write down what that base 16 slot is; so 16^0 is 1.  Then, convert any letters into their
+                        appropriate decimal values (A = 10, B = 11, C = 12...).  After that, multiply that value by their
+                        base 16 number.  For example, 8 is in the ones space, so it would be multiplied by 1.  After that, 
+                        add all the multiplied numbers together.  There you go!
+                    </p>
+                </th>
+            </tr>
+        </table>
+    </div>
+    
+   
+    <h3>How do you convert Decimal into Hexadecimal?</h3>
+    <table border = "0 px">
+            <tr>
+                <th>
+                    <img src = "https://codehs.com/uploads/76b5db4000d4edeeb8c6e89754a06c26" width = "150 px">
+                </th>
+                <!--paragraph/body text-->
+                <th>
+                    <p>
+                        Wow, another great question!  Converting a decimal into a hexadecimal is similar to converting
+                        a decimal to a binary (see <a href = "binary.html">Binary</a> page).  All you need to do is divide the number
+                        by 16, since hexadecimal is a base 16 number system.  When the 16 doesn't easily divide into a number, I like 
+                        to take the integer part of the quotient, multiply it by 16, and subtract that from the dividend to find the remaindor.
+                        Look at that, you totally did it!  Way to go!
+                    </p>
+                </th>
+            </tr>
+        </table>
+    
+    
+    
+    <footer>
+        <p>Kaiya Moore 2023©</p>
+    </footer>
+</body>
